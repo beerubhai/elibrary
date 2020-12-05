@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mainor_project</title>
+	<link rel="stylesheet" type="text/css" href=".\css\bootstrap.css">
+	<link rel="stylesheet" type="text/css" href=".\css\all.min.css">
+	<style type="text/css">
+		.sin{
+			text-align: center;
+		}
+		.raw{
+			background-color: #343a40;
+			color: white;
+			margin-top: 3%;
+		}
+		.soot{
+			margin-top: 2%;
+		}
+        .imag{
+            float: left;
+        }
+        .carousel-inner{
+        	margin-top: 3%;
+        }
+        .root{
+        	text-align: center;
+        	background-color: #343a40;
+        }
+		.block{
+			position: absolute;
+			top: 0%;
+			left: 25%;
+			color: blue;
+      font-size: 75px;
+		}
+		.block-4{
+			position: absolute;
+			top: 31%;
+			left: 35%;
+		}
+		.bg-dark{
+   				 background-color: #002040 !important;
+		}
+		.max{
+			margin-top: 5%
+		}
+		.ac{
+			margin-top: 2%;
+		}
+		.block-5{
+			position: absolute;
+			top: 15%;
+			left: 0%
+		}
+		.block-6{
+			position: absolute;
+			top: 14%;
+			left: 13%;
+		}
+		.seen{
+			background-color: yellow;
+      height: 4px;
+		}
+    .just{
+      text-align: justify;
+    }
+    .toor{
+      padding: 15px;
+    }
+
+
+.site-headers{margin: 0; padding: 0; border-radius: 0% 0% 0% 0%;
+      width: 100%; height: 100vh; background: linear-gradient(57deg, #00c6a7, #1e4d92);}
+    /*.logo{ width: 50%; height: 100px;}
+    .logo h1{ line-height: 100px; padding-left: 55%; font-size: 100px; color: white;}*/
+    .leftside img{ width: 600px; height: 500px;}
+    .to{
+      position: absolute;
+      bottom: 5%;
+      right: 10%;
+      color: white;
+    }
+    .too{
+      position: absolute;
+      bottom: 0%;
+      right: 11%;
+      color: white;
+      
+    }
+    body{
+      font-family: courier,arial,helvetica;
+
+    }
+    
+   
+   
+	</style>
+</head>
+<body style=" background-color: lightblue;">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+   		<img src=".\image\3048425.svg" height="70px" width="70px">
+   		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsupportedcontent"aria-controls="navbarsupportedcontent">
+   		<span class="navbar-toggler-icon"></span>
+   		</button>
+   		<div class="collapse navbar-collapse" id="navbarsupportedcontent">
+   			<ul class="navbar-nav mr-auto">
+   				<li class="nav-item">
+   					<a class="nav-link" href=".\index.html"><b>Home </b><span class="sr-only">(current)</span></a>
+   				</li>
+   				<li class="nav-item">
+   					<a class="nav-link" href=".\views\about.html"><b>About Us</b></a>
+   				</li>
+   				<li class="nav-item">
+   					<a class="nav-link" href="#"><b>Gallery</b></a>
+   				</li>
+   				<li class="nav-item">
+   					<a class="nav-link" href=".\views\contact1.html"><b>contact Us</b></a>
+   				</li>
+   				<li class="nav-item">
+   					<a class="nav-link" href=".\views\google map.html"><b>Mape</b></a>
+   				</li>
+   				<li class="nav-item dropdown">
+   					<a class="nav-link dropdown-toggle" href="#" id="color" role="button" data-toggle="dropdown" aria-haspopup="false" aria-haspopup="false">
+   					<b>Books</b>
+   					</a>
+   				<div class="dropdown-menu" aria-labelledby="color">
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">School</a>
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">History</a>
+   				    <!-- <div class="dropdown-divider"></div> -->
+   				    <a class="dropdown-item" href="\views\book_block.html">Engineering</a>
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">Science</a>
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">humanities</a>
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">Literature</a>
+   				    <a class="dropdown-item" href="I:\mainor_project\book_block.html">Law & Management</a>
+   				</div>
+   			</li><input type="text" placeholder="Search....">
+   		</ul>
+    	<form action="I:\mainor_project\manior_project_login.html">
+   			<button  class="btn btn-light">Log in</button>
+   		</form>
+   		<button class="btn btn-info">Sin up</button>
+   	</div> 
+   </nav>
+
+
+ <header class="site-headers">
+  <nav>
+    <div class="col-xm-12 col-sm-12 col-md-12">
+      <h1 style="text-align: center; font-size: 85px; color: white;">elibrary</h1>
+    </div>
+  </nav>
+  <section>
+    <div class="lefside">
+      <img src=".\image\lib.png" height="590px" width="60%">
+      <h1 class="to">Our Morden Library</h1>
+      <p class="too">We are the Best Website Developer Comapany.</p>
+    </div>
+  </section>
+ </header>
+
+
+   <!-- <div class="container-fluid">
+   		<div class="row">
+   			<div class="col-sm-12 col-md-12">
+   				<img src=".\image\black_book.jpg" height="550vh" class="d-block w-100">
+   			  <b class="block">elibrary</b>
+   				<img class="block-4" src=".\image\homework.png" height="100px" width="100px">
+   			</div>
+   		</div>
+   </div> -->
+   <div id="slid" class="carousel slide" data-ride="carousel">
+   	   <div class="carousel-inner">
+   	   	 	<ol class="carousel-indicators">
+   	   	 		<li data-target="#slid" data-slide-to="0" class="active"></li>
+   	   	 		<li data-target="#slid" data-slide-to="1"></li>
+   	   	 		<li data-target="#slid" data-slide-to="2"></li>
+   	   	 		<li data-target="#slid" data-slide-to="3"></li>
+   	   	 		<li data-target="#slid" data-slide-to="4"></li>
+   	   		</ol>
+   	   	<div class="carousel-item active">   	   	 	
+   	   	 	<img src=".\image\2222.jfif" height="550vh" class="d-block w-100" alt="slider1">
+   	   	</div>
+   	   	 	<div class="carousel-item">
+   	   	 		<img src=".\image\1111.jfif" height="550vh" class="d-block w-100" alt="slider2">
+   	   		</div>
+   	     	<div class="carousel-item">
+   	   	 		<img src=".\image\3333.jfif" height="550vh" class="d-block w-100" alt="slider3">
+   	   		</div>
+   	   		<div class="carousel-item">
+   	   			<img src=".\image\6666.jfif" height="550vh" class="d-block w-100" alt="slider3">
+   	   		</div>
+   	   		<div class="carousel-item">
+   	   	 		<img src=".\image\7777.jfif" height="550vh" class="d-block w-100" alt="slider3">
+   	   		</div>
+   	   		<div>
+   	   			<a class="carousel-control-prev" href="#slid" role="button" data-slide="prev">
+   	   				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+   	   				<span class="sr-only">Previous</span>
+   	  			</a>
+   	   			<a class="carousel-control-next"href="#slid" role="button" data-slide="next">
+   	   				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+   	   				<span class="sr-only">next</span>
+   	   			</a>
+   			</div>
+   		</div>
+   	</div>
+</div>
+<div class="container-fluid">
+    <div class="row" style="margin-top: 90px">
+        <div class="col-xm-12 col-sm-12 col-md-12">
+        	<h1 style="text-align: center;"><b>Study at Home</b></h1>
+        	<hr width="25%" class="seen">
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-xs-6 col-sm-6 col-md-3 toor">
+        	<center>
+            <a href="I:\mainor_project\book_block.html">
+        		  <button type="button" class="btn btn-info">
+        			 <img src=".\image\3094198.svg" height="90px" width="90px"> <b>School</b>
+        		  </button>
+            </a>
+        	</center>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 toor">
+        	<center>
+            <a href="I:\mainor_project\book_block.html">	
+        		  <button type="button" class="btn btn-info">
+        			  <img src=".\image\history2.svg" height="90px" width="90px"> <b>History</b>
+        		  </button>
+            </a>
+          </center>
+        </div>
+        <div class=" col-xs-6 col-sm-6 col-md-3 toor">
+        	<center>
+            <a href="I:\mainor_project\book_block.html">		
+        	     <button type="button" class="btn btn-info">
+        		      <img src=".\image\3079162.png" height="90px" width="90px"> <b>Egineering</b>
+        		   </button>
+             </a>
+        	</center>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 toor">
+        	<center>		
+            <a href="I:\mainor_project\book_block.html">
+        		  <button type="button" class="btn btn-info">
+        			  <img src=".\image\1283419.png" height="90px" width="90px"> <b>Science</b>
+        		  </button>
+            </a>
+        	</center>
+        </div>
+    </div>
+</div>
+    <div class="container-fluid">
+    	<div class="row ac">
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>
+            <a href=".\views\commingsoon.html">
+    				  <button type="button" class="btn btn-info">
+    					  <img src=".\image\626559.svg" hht="90px" width="90px"> <b>Comics</b>
+        			</button>
+            </a>
+        	</center>
+        </div>
+        <div class="col-xs-6 col-sm-6 col-md-3 toor">
+        	<center>	
+            <a href=".\views\commingsoon.html">
+    				  <button type="button" class="btn btn-info">
+    				 	  <img src=".\image\2178197.png" height="90px" width="90px"> <b>Literature</b>
+    				  </button></a>
+    			</center>
+    		</div>
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>	
+            <a href=".\views\commingsoon.html">
+    				  <button type="button" class="btn btn-info">
+    				 	  <img src=".\image\2949865.svg" height="90px" width="90px"> <b>Humanities</b>
+    				  </button>
+            </a>
+    			</center>
+    		</div>
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>	
+            <a href=".\views\commingsoon.html">
+    				  <button type="button" class="btn btn-info">
+    					 <img src=".\image\art1.svg" height="90px" width="90px"> <b>Drowing</b>
+    				  </button>
+            </a> 
+    			</center>
+    		</div>		
+    	</div>
+    </div>
+    <div class="container-fluid">
+    	<div class="row soot">
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>
+            <a href=".\views\sorry.html">
+    				  <button type="button" class="btn btn-info">
+    				 	  <img src=".\image\3048398.svg" height="90px" width="90px"> <b>Health & Exercise</b>
+    				  </button>
+            </a>
+    			</center>
+    		</div>
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<CENTER>
+            <a href=".\views\sorry.html">
+    				  <button type="button" class="btn btn-info">
+    					 <img src=".\image\2966756.png" height="90px" width="90px"> <b>Law & Management</b> 
+    				  </button>
+            </a>
+    			</CENTER>
+    		</div>
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>
+            <a href=".\views\sorry.html">
+    				  <button type="button" class="btn btn-info">
+    					 <img src=".\image\1830878.svg" height="90px" width="90px"> <b>Kitchen & Recipe</b> 
+    				  </button>
+            </a>
+    			</center>
+    		</div>
+    		<div class="col-xs-6 col-sm-6 col-md-3 toor">
+    			<center>
+            <a href=".\views\sorry.html">	
+    				  <button type="button" class="btn btn-info">
+    				  	<img src=".\image\1147934.svg" height="90px" width="90px"> <b>Healthy & food</b>
+    				  </button>
+            </a>  
+    			</center>
+    		</div>
+    	</div>
+	</div>
+</div>    	
+<div class="container-fluid">
+  	<div class="row raw">
+        <div class="col-md-3 col-sm-12">
+            <h2 style="text-align: center;">ebook library</h2>
+           		<p class="just">Library Management System is carefully developed for easy management of any type of library. It’s actually a virtual version of a real library. It?s a web based system where you can manage books of different categories, manage users & manage issue/return of books easily.Issuing a book to a member is just a matter of a click.LMS will be an efficient and intelligent companion for managing your library.</p>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h2 style="text-align: center;">Quick links</h2>
+            <div>
+                <a href=".\index.html">Home</a>
+            </div>
+            <div>
+                <a href=".\views\contact1.html">Contact us</a>
+            </div> 
+            <div>
+               	<a href=".\views\google map.html">Mape</a>
+            </div>
+            <div>
+                <a href="">Gallery</a>
+            </div>     
+            <div>
+               	<a href=".\views\about.html">About us</a>
+            </div>
+            <div>
+            	<a href="">Books</a>
+            </div>
+        </div>
+        <div class="col-md-3 col-sm-12">
+            <h2 style="text-align: center;">Address</h2>
+              <center>
+                <img src=".\image\2928892.svg" height="40px" width="40px">
+                <p>Shop no: 03,Anamika Complex,U.S.Nagar Kashipur.</p>
+              </center>
+              
+        </div>
+        <div class="col-md-3 col-sm-12">
+          <h2 style="text-align: center;"> Contact</h2>
+            <div class="col-md-12 col-sm-12">
+              <center>
+                <img src=".\image\3014736.svg" height="40px" width="40px">
+              <p class="">05966 242636</p>  
+              </center>
+            </div>             
+            <div class="col-md-12 col-sm-12">
+              <center>
+                <img src=".\image\2097276.svg" height="40px" width="40px">
+                <p>+91 7248093269</p> 
+              </center>
+            </div>                              	
+            <div class="col-md-12 col-sm-12">
+              <center>
+                <img src=".\image\3062634.svg" height="40px" width="40px">
+                <p>elibrary@gmail.com</p>
+              </center>	
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row root">
+        <div class="col-12">
+          <a href="https://www.facebook.com/beerendra.rawat.92">
+            <img class="" src=".\image\fb.svg" height="40px" width="40px">
+          </a>
+        	<a href="">
+            <img class="" src=".\image\insta1.svg" height="40px" width="40px">
+          </a>
+        	<a href="">
+           <img class="" src=".\image\3062634.svg" height="40px" width="40px"> 
+          </a>
+        	<a href="">
+           <img class="" src=".\image\you.svg" height="40px" width="40px"> 
+          </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script src=".\js\jquery.js" type="text/javascript"></script>
+<script src=".\js\bootstrap.js" type="text/javascript"></script>
